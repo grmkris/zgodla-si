@@ -1,7 +1,7 @@
 import { api } from "~/utils/api";
 import { YoutubeVideo } from "~/components/YoutubeVideo";
 
-export const YoutubePage = () => {
+export default function YoutubePage() {
   const videos = api.youtube.getVideos.useQuery({
     limit: 5,
   });
@@ -15,4 +15,4 @@ export const YoutubePage = () => {
       ))}
     </div>
   );
-};
+}
