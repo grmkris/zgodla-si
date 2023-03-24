@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kategorija {
+  @apply mt-5 mr-4 bg-orange-200 shadow-md float-left aspect-video
+}
+
+.podnaslov {
+  @apply mt-5 border-b pb-2 text-gray-500
+}
+
+.presledki {
+  @apply lg:px-60 sm:px-20 px-5
+}

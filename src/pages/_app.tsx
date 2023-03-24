@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { api } from "~/utils/api";
 
-import "~/styles/globals.css";
+import "~/pages/styles.css";
 
 // Create a client
 const queryClient = new QueryClient();
