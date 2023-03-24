@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
       </Head>
-      <body className="font-body text-gray-600">
+      <div className="font-body text-gray-600">
         <div className="bg-orange-200 py-5 h-40 flex">
           <div className="presledki sm:flex sm:items-center sm:justify-start align-bottom">
             <img src="https://picsum.photos/50" className="mr-5 rounded-full" />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             </div>
           </main>
         </div>
-      </body>
+      </div>
     </>
   );
 };
