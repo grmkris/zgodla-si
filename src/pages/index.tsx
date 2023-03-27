@@ -34,17 +34,17 @@ const Home: NextPage = () => {
           <main>
 
             <div>
-              <h2 className="podnaslov">O našem kanalu</h2>
+              <h2 className="podnaslov">O meni</h2>
               <div>
-                <div className="pt-3 min-w-[10rem] block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla scelerisque neque. Donec tristique tellus non massa maximus, eget hendrerit urna efficitur. Nam ultrices odio ac felis egestas hendrerit. Proin mollis vehicula consequat. Phasellus aliquet lectus magna, sit amet lacinia dui venenatis sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent eget interdum leo. Pellentesque vehicula eros eget nisl porta condimentum.</div>
-                <div className="flex justify-center">
+                <div className="pt-3 block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla scelerisque neque. Donec tristique tellus non massa maximus, eget hendrerit urna efficitur. Nam ultrices odio ac felis egestas hendrerit. Proin mollis vehicula consequat. Phasellus aliquet lectus magna, sit amet lacinia dui venenatis sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent eget interdum leo. Pellentesque vehicula eros eget nisl porta condimentum.</div>
+                <div className="flex sm:justify-center">
                   <div className="kategorija sm:h-72 h-36"></div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h2 className="podnaslov">Vsi videi</h2>
+              <h2 className="podnaslov">Vsi video posnetki</h2>
               <div className="float-left gap-5">
                 <div className="kategorija h-36"></div>
                 <div className="kategorija h-36"></div>
